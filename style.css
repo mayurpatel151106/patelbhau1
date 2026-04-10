@@ -7,3 +7,30 @@ body{
     font-family: Arial, sans-serif;
     background: #fff;
 }
+.navbar{
+    background: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}           
+.navbar a:hover{
+    color: #ddd;
+}
+.content{
+    padding: 20px;
+    text-align: center;
+}
+.content h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.content p{
+    font-size: 18px;
+    color: #555;
+}
